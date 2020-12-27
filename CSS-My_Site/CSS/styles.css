@@ -1,0 +1,131 @@
+body {
+  margin: 0; /* all four sites will be set 0 */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem; /* 100% = 16px , 90px/16 = 562.5%*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-family: 'Space Mono', monospace;
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999e;
+  font-family: 'Space Mono', monospace;
+}
+hr {
+  color: grey;
+  width: 70px;
+  text-align: center;
+  margin: 100px auto 100px auto;
+  border-top: dotted 8px;
+}
+.skill-row {
+  margin: 150px auto 150px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.afterHello {
+  color: #40514e;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.topContainer {
+  position: relative;
+  background-color: #eaf6f6;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  margin: 50px auto 0 0;
+  height: 10%;
+  padding-top: 50px;
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  color: white;
+}
+.big {
+  width: 200px;
+  height: 200px;
+}
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.pro {
+  text-decoration: underline;
+}
+.left {
+  clear: right;
+}
+
+/* PICTURES */
+.mePicture {
+  width: 170px;
+  height: 220px;
+}
+.cropImage {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.cropImage2 {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.footer-link {
+  color: #11999e;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+.buttonContact {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: Times New Roman;
+  width: 200px;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #66bfbf;
+  line-height: 2;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttonContact:hover {
+  background: #89f5f5;
+  border: solid #000000 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
