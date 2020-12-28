@@ -16,23 +16,26 @@ h2 {
   color: #66bfbf;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 h3 {
   color: #11999e;
   font-family: 'Space Mono', monospace;
 }
 hr {
-  color: grey;
   width: 70px;
   text-align: center;
-  margin: 100px auto 100px auto;
-  border-top: dotted 8px;
+  margin: 100px auto;
+  border-top: dotted #eaf6f6 8px;
+  border-bottom: none;
+}
+p {
+  line-height: 2;
 }
 .skill-row {
   margin: 150px auto 150px auto;
   width: 50%;
   text-align: left;
-  line-height: 2;
 }
 .afterHello {
   color: #40514e;
@@ -45,16 +48,20 @@ hr {
   background-color: #eaf6f6;
   padding-top: 100px;
 }
+.middle-container {
+  margin: 100px 0 0 0;
+}
 .bottom-container {
   background-color: #66bfbf;
   margin: 50px auto 0 0;
   height: 10%;
-  padding-top: 50px;
+
+  padding: 50px 0 20px;
 }
 .copyright {
   margin-bottom: 0;
-  padding-bottom: 25px;
-  color: white;
+  padding-bottom: 25px 0;
+  color: #eaf6f6;
 }
 .big {
   width: 200px;
@@ -67,7 +74,7 @@ hr {
 }
 .bottomCloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 .pro {
@@ -75,6 +82,11 @@ hr {
 }
 .left {
   clear: right;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
 }
 
 /* PICTURES */
@@ -96,8 +108,12 @@ hr {
 }
 .footer-link {
   color: #11999e;
-  padding: 0 10px 0 10px;
+  margin: 10px 20px;
+  font-family: 'Space Mono', monospace;
   text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
 }
 
 .buttonContact {
@@ -107,7 +123,7 @@ hr {
   height: 40px;
   line-height: 50px;
   color: #ffffff;
-  font-family: Times New Roman;
+  font-family: 'Space Mono', monospace;
   width: 200px;
   font-size: 25px;
   font-weight: 100;
